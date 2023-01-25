@@ -1,0 +1,11 @@
+session_name: irancell
+start_directory: .
+shell_command_before:
+  - source .venv/bin/activate
+  - clear
+windows:
+  - window_name: main
+    layout: even-horizontal
+    panes:
+      - focus: true
+      - ipython
